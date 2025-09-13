@@ -327,11 +327,6 @@ python3 kali_network_scanner_v2.py
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
 
-## 👥 开发团队
-
-- **主要开发者**: Network Security Team
-- **维护者**: [@username](https://github.com/username)
-- **贡献者**: 查看 [Contributors](https://github.com/your-repo/kali-network-tools/contributors)
 
 ## 🙏 致谢
 
@@ -345,9 +340,8 @@ python3 kali_network_scanner_v2.py
 
 ## 📞 联系方式
 
-- **📧 邮箱**: security-team@example.com
-- **🐙 GitHub**: https://github.com/your-repo/kali-network-tools
-- **📖 文档**: https://your-docs-site.com
+- **📧 邮箱**: Ludandaye@gmail.com
+
 
 ---
 

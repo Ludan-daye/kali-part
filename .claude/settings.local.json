@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./route_stress_test.py --show-routes)",
+      "Bash(./route_stress_test.py --auto -c 5)",
+      "Bash(./route_stress_test.py -t 10.18.31.253 --tests ping hping -c 10)",
+      "Bash(nmap:*)",
+      "Bash(sudo nmap:*)",
+      "Read(//etc/apt/**)",
+      "Bash(ip route:*)",
+      "Bash(python3:*)",
+      "Bash(sudo -S cp /tmp/sources.list.fixed /etc/apt/sources.list)",
+      "Bash(sudo -S ./install.sh)",
+      "Bash(sudo -S nmap --script route-stress-test --script-args \"count=5\" 127.0.0.1)",
+      "Bash(timeout 60 sudo -S python3:*)",
+      "Bash(chmod:*)",
+      "Bash(./kali-network-tester:*)",
+      "Bash(./kali-network-tools/kali-network-tester:*)",
+      "Bash(timeout:*)",
+      "Bash(tar:*)",
+      "Read(//home/parallels/Desktop/**)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
